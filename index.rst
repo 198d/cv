@@ -19,9 +19,8 @@ Curiosity
 
 * Primarily responsible for managing infrastructure and have implemented
   internal best-practices around configuration management (*Salt Stack*),
-  monitoring/alerting (*CloudWatch* now; planning on *Riemann*,
-  *Elasticsearch*, *Kibana* in the future), logging (*syslog-ng* locally to
-  *Papertrail*), etc.
+  monitoring/alerting (*CloudWatch* currently; evaluating new stacks), logging
+  (*syslog-ng* locally to *Papertrail*), etc.
 * Built and maintain internal library used by all *Python* applications aiding
   in configuration, deployment and service discovery
 * Work daily ensuring stability of systems such as *Elasticsearch* (multiple
@@ -30,9 +29,9 @@ Curiosity
 * Laid inital groundwork for internal CMS tool with a *Flask* web application
   providing a *REST* API and custom framework built around *BackboneJS* for
   managing client interactions and later moving *ReactJS*
-* Led large initiative to migrate infrastructure from *EC2 Classic* to a *VPC*
-  model moving ~40 VMs across 2 environments (Qa and Production) to separate
-  VPCs with minimal downtime (i.e. mostly unnoticed to users)
+* Led initiative to migrate infrastructure from *EC2 Classic* to *EC2 VPC*
+  moving ~40 VMs across 2 environments (qa and production) to separate VPCs
+  with minimal production downtime (i.e. mostly unnoticed to users)
 
 
 Call One
@@ -43,8 +42,9 @@ Call One
 
 * Hired with goal of modernizing/rewriting a set of aging *Python* codebases and
   internal infrastructure
-* Helped implement best-practices around testing, deployment, provisioning and
-  process using tools such as *Nose*, *Django*, *Fabric*, *Puppet*, *git*, etc.
+* Implemented best-practices around development, testing, deployment,
+  provisioning and process using tools such as *Nose*, *Django*, *Fabric*,
+  *Puppet*, *git*, etc.
 * Worked with members of staff to debug and solve issues they had with internal
   tooling and provided adhoc data reporting from several internal/external
   datastores (*PostgreSQL*, *MSSQL*, filesystems w/ legacy text database files,
@@ -67,10 +67,10 @@ Leapfrog Online
   *EventMachine*), called *RCelery*, that ported major pieces of the *Python*
   library *Celery* to *Ruby* making possible tasks published (via *RabbitMQ*
   broker) from one language to be processed by the other
-* Transitioned to different team with bigger scalability concerns where was
-  given opportunity to learn *Python*
+* Learned *Python* after moving to larger team and quickly made significant
+  contributions
 * Participated in very *Agile* process that involved bi-weekly sprints,
-  retrospectives, etc. (best I've ever seen the process run)
+  retrospectives, etc.
 
 
 Metromix
@@ -80,13 +80,13 @@ Metromix
 :Location: Chicago, IL
 
 * Hired as entry-level engineer, initially participating on a maintenance team
-  responsible for bug fixes in a large *Ruby on Rails* application
-* Eventually participated in general feature development practicing something
-  akin to *Scrum* or *Agile*
+  responsible for bug fixes in a large *Ruby on Rails* application eventually
+  participating in general feature development practicing something akin to
+  *Scrum* or *Agile*
 * Major contributor to project that involved ETLing data from several
   third-party providers into an internal *MySQL* database utilizing *CouchDB*
-  as an intermediate store for various stages of the extraction and translation
-  process
+  as an intermediate store for various stages of the extraction and
+  transformation process
 
 
 Tribune Interactive
@@ -95,7 +95,7 @@ Tribune Interactive
 :Location: Chicago, IL
 
 * Worked on 2 man team to develop frontend (*HTML*, *Javascript*, *CSS*, *JSP
-  templating*) for taxonomy project that served all major newspaper websites
+  templating*) for project that served the companies major newspaper websites
 
 
 Education
