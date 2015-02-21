@@ -1,0 +1,37 @@
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: monospace;
+}
+
+pre.address {
+  margin: 0;
+  white-space: normal;
+}
+
+tr.field th {
+  text-align: left;
+}
+
+div.document {
+  margin: 0 auto;
+}
+
+em {
+  font-weight: bold;
+}
+
+
+@media (max-width: 991px) {
+  div.document {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  div.document {
+    width: 800px;
+  }
+}
