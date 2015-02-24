@@ -58,7 +58,7 @@ Call One
 Leapfrog Online
 ^^^^^^^^^^^^^^^
 :Position: Software Engineer
-:Dates: December 2011 - April 2012
+:Dates: December 2010 - April 2012
 :Location: Evanston, IL
 
 * Began on small *Ruby on Rails* team building platform/framework for lead
@@ -76,7 +76,7 @@ Leapfrog Online
 Metromix
 ^^^^^^^^
 :Position: Software Engineer
-:Dates: August 2008 - December 2011
+:Dates: August 2008 - December 2010
 :Location: Chicago, IL
 
 * Hired as entry-level engineer, initially participating on a maintenance team
