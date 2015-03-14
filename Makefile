@@ -1,4 +1,4 @@
-build: index.rst
+build: index.rst template.html styles.css
 	mkdir -p build
 	rst2html.py --template=template.html --stylesheet=styles.css index.rst > build/index.html
 
@@ -8,4 +8,5 @@ deploy: build
 	mv build/index.html index.html
 	git add index.html
 	git commit
+	git push origin gh-pages
 	git checkout master
