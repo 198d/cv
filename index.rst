@@ -1,7 +1,7 @@
 John MacKenzie
 ==============
-:Address: 1940 N. Lincoln Ave., Apt 405, Chicago, IL 60614
-:Phone: +1 312 952 5646
+:Location: Berlin, Germany
+:Phone: +47 152 3717 0995
 :Email: john@nineteeneightd.com
 :Github: `198d <https://github.com/198d>`_
 
@@ -9,20 +9,36 @@ John MacKenzie
 Experience
 ----------
 
+So1
+^^^
+:Position: Senior Infrastructure Engineer
+:Dates: August 2015 - Present
+:Location: Berlin, Germany
+
+* Manage infrastructure hosted with *Amazon AWS* and ensure stability of
+  systems such as *Apache Kafka*, public and internal *Scala/akka*
+  applications, *Apache Haddop*, *Redis*, *MySQL*, *Amazon Redshift* and
+  *Couchbase* using systems/tools such as *InfluxDB* (*Grafana*),
+  *Elasticsearch* (*Logstash*) *Jenkins*, *Ansible* and *Nagios*
+* Lead network integration (*IPSec*) projects between So1 and large German
+  retailers to ensure kiosks and tills operating in retail stores
+  can communicate with internal systems
+
+
 Curiosity
 ^^^^^^^^^
 :Position: Senior Software Engineer
-:Dates: June 2013 - Present
+:Dates: June 2013 - June 2015
 :Location: Chicago, IL
 
 * Manage infrastructure and ensure stability of systems such as *Elasticsearch*
   (multiple clusters), *MongoDB* (in replica set configuration), public and
   internal *Python* web applications, *Apache Storm*, and *Redis*
-* Implement internal best-practices around configuration management (*Salt
-  Stack*), monitoring/alerting (*CloudWatch* and *Sentry*), logging
-  (*syslog-ng* locally to *Papertrail*), continuous integration (*Buildkite*),
-  deployemnt (*Fabric*) and security while continuously questioning current
-  solutions and evaluating new ones
+* Implement internal best-practices around configuration management and
+  deployment (*Salt Stack* and *Fabric*), monitoring and alerting (*CloudWatch*
+  and *Sentry*), logging (*syslog-ng* and *Papertrail*), continuous integration
+  (*Buildkite*) and network security (*IPSec* and *VPC*) while continuously
+  questioning current solutions and evaluating new ones
 * Built and maintain internal library used by all *Python* applications aiding
   in configuration, deployment and service discovery
 * Led migration of infrastructure from *EC2 Classic* to *EC2 VPC* moving ~40
