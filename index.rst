@@ -19,7 +19,7 @@ So1
   systems such as *Apache Kafka*, public and internal *Scala/akka*
   applications, *Apache Haddop*, *Redis*, *MySQL*, *Amazon Redshift* and
   *Couchbase* using systems/tools such as *InfluxDB* (*Grafana*),
-  *Elasticsearch* (*Logstash*) *Jenkins*, *Ansible* and *Nagios*
+  *Elasticsearch* (*Logstash*), *Jenkins*, *Ansible* and *Nagios*
 * Lead network integration (*IPSec*) projects between So1 and large German
   retailers to ensure kiosks and tills operating in retail stores
   can communicate with internal systems
