@@ -17,7 +17,7 @@ So1
 
 * Manage infrastructure hosted with *Amazon AWS* and ensure stability of
   systems such as *Apache Kafka*, public and internal *Scala/akka*
-  applications, *Apache Haddop*, *Redis*, *MySQL*, *Amazon Redshift* and
+  applications, *Apache Hadoop*, *Redis*, *MySQL*, *Amazon Redshift* and
   *Couchbase* using systems/tools such as *InfluxDB* (*Grafana*),
   *Elasticsearch* (*Logstash*), *Jenkins*, *Ansible* and *Nagios*
 * Lead network integration (*IPSec*) projects between So1 and large German
