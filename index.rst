@@ -35,15 +35,15 @@ Curiosity
 :Dates: June 2013 - June 2015
 :Location: Chicago, IL
 
-* Manage infrastructure and ensure stability of systems such as *Elasticsearch*
+* Managed infrastructure and ensured stability of systems such as *Elasticsearch*
   (multiple clusters), *MongoDB* (in replica set configuration), public and
   internal *Python* web applications, *Apache Storm*, and *Redis*
-* Implement internal best-practices around configuration management and
+* Implemented internal best-practices around configuration management and
   deployment (*Salt Stack* and *Fabric*), monitoring and alerting (*CloudWatch*
   and *Sentry*), logging (*syslog-ng* and *Papertrail*), continuous integration
   (*Buildkite*) and network security (*IPSec* and *VPC*) while continuously
   questioning current solutions and evaluating new ones
-* Built and maintain internal library used by all *Python* applications aiding
+* Built and maintained internal library used by all *Python* applications aiding
   in configuration, deployment and service discovery
 * Led migration of infrastructure from *EC2 Classic* to *EC2 VPC* moving ~40
   VMs across 2 environments to separate VPCs with minimal production downtime
