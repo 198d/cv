@@ -15,14 +15,18 @@ So1
 :Dates: August 2015 - Present
 :Location: Berlin, Germany
 
-* Manage infrastructure hosted with *Amazon AWS* and ensure stability of
-  systems such as *Apache Kafka*, public and internal *Scala/akka*
-  applications, *Apache Hadoop*, *Redis*, *MySQL*, *Amazon Redshift* and
-  *Couchbase* using systems/tools such as *InfluxDB* (*Grafana*),
-  *Elasticsearch* (*Logstash*), *Jenkins*, *Ansible* and *Nagios*
-* Lead network integration (*IPSec*) projects between So1 and large German
-  retailers to ensure kiosks and tills operating in retail stores
-  can communicate with internal systems
+* Implement and maintain solutions for infrastructure (hosted on *Amaazon AWS*)
+  management around logging (*Elasticsearch*, *Logstash*, *Kibana*),
+  configuration management and deployment automation (*Ansible*, *Rundeck*),
+  continuous integration (*Jenkins*), data storage and processing (*Apache
+  Kafka*, *Apache Zookeeper*, *MySQL*, *Amazon Redshift*, *SSDB*, *Redis*,
+  *Couchbase*), and monitoring and alerting (*InfluxDB*, *Grafana*, *Graphite*,
+  *Nagios*)
+* Lead network integrations (*Amazon VPC*, *Strongswan IPSec*) with large
+  German and foreign retailers to provide access to internal So1 systems from
+  retail stores around Germany and abroad
+* Build and maintain internal CLI tool (written in *Python*) that provides
+  consistent interfaces for common operations and infrastructure related tasks
 
 
 Curiosity
