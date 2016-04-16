@@ -1,7 +1,7 @@
 John MacKenzie
 ==============
-:Location: Berlin, Germany
-:Phone: +47 152 3717 0995
+:Location: Augsburg, Germany
+:Phone: +49 152 3717 0995
 :Email: john@nineteeneightd.com
 :Github: `198d <https://github.com/198d>`_
 
