@@ -1,7 +1,6 @@
 John MacKenzie
 ==============
-:Location: Augsburg, Germany
-:Phone: +49 152 3717 0995
+:Location: Germany
 :Email: john@nineteeneightd.com
 :Github: `198d <https://github.com/198d>`_
 
@@ -12,11 +11,11 @@ Experience
 So1
 ^^^
 :Position: Senior Infrastructure Engineer
-:Dates: August 2015 - Present
+:Dates: August 2015 - June 2016
 :Location: Berlin, Germany
 
-* Implement and maintain solutions for infrastructure (hosted on *Amaazon AWS*)
-  management around logging (*Elasticsearch*, *Logstash*, *Kibana*),
+* Implemented and maintained solutions for infrastructure (hosted on *Amaazon
+  AWS*) management around logging (*Elasticsearch*, *Logstash*, *Kibana*),
   configuration management and deployment automation (*Ansible*, *Rundeck*),
   continuous integration (*Jenkins*), data storage and processing (*Apache
   Kafka*, *Apache Zookeeper*, *MySQL*, *Amazon Redshift*, *SSDB*, *Redis*,
@@ -25,7 +24,7 @@ So1
 * Lead network integrations (*Amazon VPC*, *Strongswan IPSec*) with large
   German and foreign retailers to provide access to internal So1 systems from
   retail stores around Germany and abroad
-* Build and maintain internal CLI tool (written in *Python*) that provides
+* Built and maintained internal CLI tool (written in *Python*) that provided
   consistent interfaces for common operations and infrastructure related tasks
 
 
