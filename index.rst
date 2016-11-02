@@ -1,6 +1,6 @@
 John MacKenzie
 ==============
-:Location: Germany
+:Location: USA
 :Email: john@nineteeneightd.com
 :Github: `198d <https://github.com/198d>`_
 
