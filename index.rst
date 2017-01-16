@@ -14,7 +14,7 @@ So1
 :Dates: August 2015 - June 2016
 :Location: Berlin, Germany
 
-* Implemented and maintained solutions for infrastructure (hosted on *Amaazon
+* Implemented and maintained solutions for infrastructure (hosted on *Amazon
   AWS*) management around logging (*Elasticsearch*, *Logstash*, *Kibana*),
   configuration management and deployment automation (*Ansible*, *Rundeck*),
   continuous integration (*Jenkins*), data storage and processing (*Apache
