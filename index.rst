@@ -10,7 +10,7 @@ Experience
 
 So1
 ^^^
-:Position: Senior Infrastructure Engineer
+:Position: Senior Site Reliability Engineer
 :Dates: August 2015 - June 2016
 :Location: Berlin, Germany
 
@@ -30,7 +30,7 @@ So1
 
 Curiosity
 ^^^^^^^^^
-:Position: Senior Software Engineer
+:Position: Senior Site Reliability Engineer
 :Dates: June 2013 - June 2015
 :Location: Chicago, IL
 
@@ -54,7 +54,7 @@ Curiosity
 
 Call One
 ^^^^^^^^
-:Position: Software Engineer
+:Position: Senior Software Engineer
 :Dates: August 2012 - September 2013
 :Location: Chicago, IL
 
