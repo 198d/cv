@@ -8,6 +8,23 @@ John MacKenzie
 Experience
 ----------
 
+Socrata
+^^^^^^^
+:Position: Senior Site Reliability Engineer
+:Dates: February 2017 - Present
+:Location: Seattle, WA
+
+* Responsible for infrastructure tooling around provisioning (*CloudFormation*), 
+  configuration management (*Chef*), deployment (*Mesos*, *Marathon*, *Chronos*, 
+  *Docker*), monitoring and alerting (*Sensu*, *Graphite*, *Grafana*), and 
+  security.
+* Consult with teams in engineering and other technical parts of the organization
+  about infrastructure design and implementation.
+* Lead implementation of an internet-facing, authenticated reverse proxy (*nginx*, 
+  *OpenResty*, *OpenIDC*) for exposing applications with no built-in authentication
+  mechanism (primarily operational dashboards) that improves their accessibility
+  (no VPN) and auditability (augmented access logs). 
+
 So1
 ^^^
 :Position: Senior Site Reliability Engineer
