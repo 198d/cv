@@ -1,6 +1,6 @@
 John MacKenzie
 ==============
-:Location: USA
+:Location: Seattle, WA
 :Email: john@nineteeneightd.com
 :Github: `198d <https://github.com/198d>`_
 
@@ -14,16 +14,16 @@ Socrata
 :Dates: February 2017 - Present
 :Location: Seattle, WA
 
-* Responsible for infrastructure tooling around provisioning (*CloudFormation*), 
-  configuration management (*Chef*), deployment (*Mesos*, *Marathon*, *Chronos*, 
-  *Docker*), monitoring and alerting (*Sensu*, *Graphite*, *Grafana*), and 
-  security.
-* Consult with teams in engineering and other technical parts of the organization
-  about infrastructure design and implementation.
-* Lead implementation of an internet-facing, authenticated reverse proxy (*nginx*, 
-  *OpenResty*, *OpenIDC*) for exposing applications with no built-in authentication
-  mechanism (primarily operational dashboards) that improves their accessibility
-  (no VPN) and auditability (augmented access logs). 
+* Responsible for infrastructure tooling around provisioning
+  (*AWS CloudFormation*, *Packer*), configuration management (*Chef*),
+  deployment (*Mesos*, *Marathon*, *Chronos*, *Docker*), monitoring and
+  alerting (*Sensu*, *Graphite*, *Grafana*), and security.
+* Consult with teams in engineering and other technical parts of the
+  organization about infrastructure design and implementation.
+* Lead implementation of an internet-facing, authenticated reverse proxy
+  (*nginx*, *OpenResty*, *OpenIDC*) for exposing applications with no built-in
+  authentication mechanism (primarily operational dashboards) that improves
+  their accessibility (no VPN) and auditability (augmented access logs).
 
 So1
 ^^^
@@ -113,7 +113,7 @@ Metromix
   and worked daily with multitude of technologies (e.g. *MySQL*, *Memcache*,
   *Solr*, *jQuery*, *PrototypeJS*, *HTML*, *CSS*, and *Capitrano*)
 * Participated in *Scrum*/*Agile* project management system and utilized
-  development methodologies such as *TDD* and  *pair-programming* 
+  development methodologies such as *TDD* and  *pair-programming*
 * Major contributor to *ETL* project that pulled data from several third-party
   *REST* APIs and utilized *CouchDB* as intermediate store for all stages of
   extraction and translation processes
