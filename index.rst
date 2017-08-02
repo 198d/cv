@@ -44,7 +44,6 @@ So1
 * Built and maintained internal CLI tool (written in *Python*) that provided
   consistent interfaces for common operations and infrastructure related tasks
 
-
 Curiosity
 ^^^^^^^^^
 :Position: Senior Site Reliability Engineer
@@ -68,7 +67,6 @@ Curiosity
   providing *REST* API serving custom framework built around *BackboneJS* for
   managing client interactions and later moving to *ReactJS*
 
-
 Call One
 ^^^^^^^^
 :Position: Senior Software Engineer
@@ -86,7 +84,6 @@ Call One
   ensuring individual components could be composed adhoc in the shell using
   pipes
 
-
 Leapfrog Online
 ^^^^^^^^^^^^^^^
 :Position: Software Engineer
@@ -102,7 +99,6 @@ Leapfrog Online
 * Mentored embedded QA engineer on regular basis about software development
   best-practices as he built out integration test suite
 
-
 Metromix
 ^^^^^^^^
 :Position: Software Engineer
@@ -117,15 +113,6 @@ Metromix
 * Major contributor to *ETL* project that pulled data from several third-party
   *REST* APIs and utilized *CouchDB* as intermediate store for all stages of
   extraction and translation processes
-
-
-Tribune Interactive
-^^^^^^^^^^^^^^^^^^^
-:Dates: February 2008 - August 2008
-:Location: Chicago, IL
-
-* Developed frontend (*HTML*, *Javascript*, *CSS*, *JSP* templating) on small
-  team for major project that served company's major newspaper websites
 
 
 Education
