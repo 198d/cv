@@ -17,13 +17,15 @@ Socrata
 * Responsible for infrastructure tooling around provisioning
   (*AWS CloudFormation*, *Packer*), configuration management (*Chef*),
   deployment (*Mesos*, *Marathon*, *Chronos*, *Docker*), monitoring and
-  alerting (*Sensu*, *Graphite*, *Grafana*), and security.
+  alerting (*Sensu*, *Graphite*, *Grafana*), and security and compliance.
 * Consult with teams in engineering and other technical parts of the
   organization about infrastructure design and implementation.
 * Lead implementation of an internet-facing, authenticated reverse proxy
   (*nginx*, *OpenResty*, *OpenIDC*) for exposing applications with no built-in
   authentication mechanism (primarily operational dashboards) that improves
   their accessibility (no VPN) and auditability (augmented access logs).
+* Lead implementation of prototype for platform to host *Shiny* (*R*)
+  applications using *Docker*, *Amazon ECS* and *OpenResty*.
 
 So1
 ^^^
