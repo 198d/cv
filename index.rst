@@ -8,10 +8,39 @@ John MacKenzie
 Experience
 ----------
 
+Amperity
+^^^^^^^^
+
+:Position: Senior Site Reliability Engineer
+:Dates: June 2018 - December 2020
+:Location: Seattle, WA
+
+* Led design and implementation of patterns and best practices for managing
+  *Terraform* configuration at scale: 40k+ lines of configuration with dozens
+  of subsystems (including *PrestoDB/SQL*, *Kafka*, *Spark*, *Zookeeper*,
+  *Meosos*/*Aurora*, *HDFS*, *Airflow*) deployed across 6 environments and 2
+  public clouds (*AWS*, *Azure*).
+* Implemented *Clojure* library wrapping *Terraform* to enable the automation
+  of common tasks (e.g. safely replacing a set of resources, configuration
+  refactoring, plan introspection, workspace management, state file
+  manipulation, etc.) and also promote a REPL-driven workflow. Included several
+  CLI tools that utilized *GraalVM* to produce native binaries.
+* Led strategic planning and implementation to migrate away from EOL Ubuntu
+  14.04 LTS which involved truing up buggy and spotty coverage of configuration
+  management (*SaltStack*) and other IaaC. Result was more reliable
+  infrastructure and documentation meant to serve as the template for further
+  automation.
+* Advocated and developed tools and best practices for developing
+  infrastructure with an emphasis on making it easier to build and test
+  locally (with VM-like *Docker* containers) or in the cloud using isolated
+  copies of real infrastructure (via *Terraform* workspaces).
+* Participated in and produced tools to gather evidence for yearly *SOC2*
+  audits.
+
 Socrata
 ^^^^^^^
 :Position: Senior Site Reliability Engineer
-:Dates: February 2017 - Present
+:Dates: February 2017 - June 2018
 :Location: Seattle, WA
 
 * Responsible for infrastructure tooling around provisioning
@@ -20,11 +49,11 @@ Socrata
   alerting (*Sensu*, *Graphite*, *Grafana*), and security and compliance.
 * Consult with teams in engineering and other technical parts of the
   organization about infrastructure design and implementation.
-* Lead implementation of an internet-facing, authenticated reverse proxy
+* Led implementation of an internet-facing, authenticated reverse proxy
   (*nginx*, *OpenResty*, *OpenIDC*) for exposing applications with no built-in
   authentication mechanism (primarily operational dashboards) that improves
   their accessibility (no VPN) and auditability (augmented access logs).
-* Lead implementation of prototype for platform to host *Shiny* (*R*)
+* Led implementation of prototype for platform to host *Shiny* (*R*)
   applications using *Docker*, *Amazon ECS* and *OpenResty*.
 
 So1
@@ -40,7 +69,7 @@ So1
   Kafka*, *Apache Zookeeper*, *MySQL*, *Amazon Redshift*, *SSDB*, *Redis*,
   *Couchbase*), and monitoring and alerting (*InfluxDB*, *Grafana*, *Graphite*,
   *Nagios*)
-* Lead network integrations (*Amazon VPC*, *Strongswan IPSec*) with large
+* Led network integrations (*Amazon VPC*, *Strongswan IPSec*) with large
   German and foreign retailers to provide access to internal So1 systems from
   retail stores around Germany and abroad
 * Built and maintained internal CLI tool (written in *Python*) that provided
