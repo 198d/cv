@@ -1,12 +1,37 @@
 John MacKenzie
 ==============
-:Location: Seattle, WA
+:Location: New York, NY
 :Email: john@nineteeneightd.com
 :Github: `198d <https://github.com/198d>`_
 
 
 Experience
 ----------
+
+Goldman Sachs
+^^^^^^^^^^^^^
+
+:Position: Vice President, Software Engineer
+:Dates: December 2021 - Present
+:Location: New York, NY
+
+* Acted as *Project Manager*, *Product Owner* and *Engineer* on project to
+  report on the global state of configuration management runs under *Ansible*.
+  Time-series data written to *InfluxDB*, dashboards constructed in *Grafana*
+  and code to orchestrate data delivery written in *Python*.
+* Piloted project for reproducible development environments for software
+  engineers on team by automating the creation of VMs (under *libvirt*) on bare
+  metal, installation of *NixOS* and application of baseline, GS-compatible
+  `configuration.nix`.
+* Participated in migration of software projects from internally hosted
+  *Gerrit* and *Jenkins* to firmwide *Gitlab*. Focused on producing concise,
+  reusable *Gitlab CI* job definitions and *container* images to be used by
+  projects team-wide.
+* Partnered with *system administrators* and *network engineers* on projects
+  with a software component, promoting software engineering best practices
+  around project structure, build automation, testing and deployment of
+  components in a global, multi-tiered environment.
+
 
 Amperity
 ^^^^^^^^
