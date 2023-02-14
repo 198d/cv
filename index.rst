@@ -15,19 +15,17 @@ Goldman Sachs
 :Dates: December 2021 - Present
 :Location: New York, NY
 
-* Acted as *Project Manager*, *Product Owner* and *Engineer* on project to
-  report on the global state of configuration management runs under *Ansible*.
-  Time-series data written to *InfluxDB*, dashboards constructed in *Grafana*
-  and code to orchestrate data delivery written in *Python*.
-* Piloted project for reproducible development environments for software
+* Led team as *Project Manager*, *Product Owner* and *Engineer* in design and
+  implementation of tool to report on the global state of *Ansible*
+  configuration management runs using *InfluxDB*, *Grafana* and *Python*.
+* Led effort to create reproducible development environments for software
   engineers on team by automating the creation of VMs (under *libvirt*) on bare
   metal, installation of *NixOS* and application of baseline, GS-compatible
   `configuration.nix`.
-* Participated in migration of software projects from internally hosted
-  *Gerrit* and *Jenkins* to firmwide *Gitlab*. Focused on producing concise,
-  reusable *Gitlab CI* job definitions and *container* images to be used by
-  projects team-wide.
-* Partnered with *system administrators* and *network engineers* on projects
+* Migrated software projects from internally hosted *Gerrit* and *Jenkins* to
+  firmwide hosted *Gitlab*. Produced concise, reusable continuous integration
+  job definitions and container base images to be used by projects team-wide.
+* Collaborated with system administrators and network engineers on projects
   with a software component, promoting software engineering best practices
   around project structure, build automation, testing and deployment of
   components in a global, multi-tiered environment.
@@ -59,8 +57,7 @@ Amperity
   infrastructure with an emphasis on making it easier to build and test
   locally (with VM-like *Docker* containers) or in the cloud using isolated
   copies of real infrastructure (via *Terraform* workspaces).
-* Participated in and produced tools to gather evidence for yearly *SOC2*
-  audits.
+* Produced tools to gather evidence for yearly *SOC2* audits.
 
 Socrata
 ^^^^^^^
@@ -68,18 +65,18 @@ Socrata
 :Dates: February 2017 - June 2018
 :Location: Seattle, WA
 
-* Responsible for infrastructure tooling around provisioning
-  (*AWS CloudFormation*, *Packer*), configuration management (*Chef*),
-  deployment (*Mesos*, *Marathon*, *Chronos*, *Docker*), monitoring and
-  alerting (*Sensu*, *Graphite*, *Grafana*), and security and compliance.
-* Consult with teams in engineering and other technical parts of the
-  organization about infrastructure design and implementation.
 * Led implementation of an internet-facing, authenticated reverse proxy
   (*nginx*, *OpenResty*, *OpenIDC*) for exposing applications with no built-in
   authentication mechanism (primarily operational dashboards) that improves
   their accessibility (no VPN) and auditability (augmented access logs).
 * Led implementation of prototype for platform to host *Shiny* (*R*)
   applications using *Docker*, *Amazon ECS* and *OpenResty*.
+* Built infrastructure tooling for provisioning (*AWS CloudFormation*,
+  *Packer*), configuration management (*Chef*), deployment (*Mesos*,
+  *Marathon*, *Chronos*, *Docker*), monitoring and alerting (*Sensu*,
+  *Graphite*, *Grafana*), and security and compliance.
+* Partnered with teams in engineering and other technical parts of the
+  organization about infrastructure design and implementation.
 
 So1
 ^^^
@@ -93,12 +90,12 @@ So1
   continuous integration (*Jenkins*), data storage and processing (*Apache
   Kafka*, *Apache Zookeeper*, *MySQL*, *Amazon Redshift*, *SSDB*, *Redis*,
   *Couchbase*), and monitoring and alerting (*InfluxDB*, *Grafana*, *Graphite*,
-  *Nagios*)
+  *Nagios*).
 * Led network integrations (*Amazon VPC*, *Strongswan IPSec*) with large
   German and foreign retailers to provide access to internal So1 systems from
-  retail stores around Germany and abroad
+  retail stores around Germany and abroad.
 * Built and maintained internal CLI tool (written in *Python*) that provided
-  consistent interfaces for common operations and infrastructure related tasks
+  consistent interfaces for common operations and infrastructure related tasks.
 
 Curiosity
 ^^^^^^^^^
@@ -108,20 +105,20 @@ Curiosity
 
 * Managed infrastructure and ensured stability of systems such as *Elasticsearch*
   (multiple clusters), *MongoDB* (in replica set configuration), public and
-  internal *Python* web applications, *Apache Storm*, and *Redis*
+  internal *Python* web applications, *Apache Storm*, and *Redis*.
 * Implemented internal best-practices around configuration management and
   deployment (*Salt Stack* and *Fabric*), monitoring and alerting (*CloudWatch*
   and *Sentry*), logging (*syslog-ng* and *Papertrail*), continuous integration
   (*Buildkite*) and network security (*IPSec* and *VPC*) while continuously
-  questioning current solutions and evaluating new ones
+  questioning current solutions and evaluating new ones.
 * Built and maintained internal library used by all *Python* applications aiding
-  in configuration, deployment and service discovery
+  in configuration, deployment and service discovery.
 * Led migration of infrastructure from *EC2 Classic* to *EC2 VPC* moving ~40
   VMs across 2 environments to separate VPCs with minimal production downtime
-  (i.e. mostly unnoticed to users)
-* Laid inital groundwork for internal CMS tool with *Flask* application
+  (i.e. mostly unnoticed to users).
+* Led inital groundwork for internal CMS tool with *Flask* application
   providing *REST* API serving custom framework built around *BackboneJS* for
-  managing client interactions and later moving to *ReactJS*
+  managing client interactions and later moving to *ReactJS*.
 
 Call One
 ^^^^^^^^
@@ -131,14 +128,14 @@ Call One
 
 * Implemented best-practices around development, testing, deployment,
   provisioning, logging and process using tools such as *Nose*, *Django*, *Fabric*,
-  *Puppet*, *git* and *Sentry*
-* Worked with members of staff to debug and solve issues with internal tooling
+  *Puppet*, *git* and *Sentry*.
+* Partnered with members of staff to debug and solve issues with internal tooling
   and provided adhoc data reporting from several internal/external datastores
-  (e.g. *PostgreSQL*, *MSSQL* and filesystems w/ legacy text database files)
-* Rewrote ETL process around call-detail records using custom stream processing
-  framework providing facilities for defining processing graphs while also
-  ensuring individual components could be composed adhoc in the shell using
-  pipes
+  (e.g. *PostgreSQL*, *MSSQL* and filesystems w/ legacy text database files).
+* Led design and implementation of ETL process around call-detail records using
+  custom stream processing framework providing facilities for defining
+  processing graphs while also ensuring individual components could be composed
+  adhoc in the shell using pipes.
 
 Leapfrog Online
 ^^^^^^^^^^^^^^^
@@ -148,12 +145,12 @@ Leapfrog Online
 
 * Built backend platforms/frameworks in *Ruby* and *Python* for lead generation
   websites and worked with dedicated frontend teams to provide necessary
-  data to fulfill design requirements
+  data to fulfill design requirements.
 * Led the development and open-source release of library (based on
   *EventMachine*; called *RCelery*) that ported major pieces of the *Python*
-  library *Celery* to *Ruby*
+  library *Celery* to *Ruby*.
 * Mentored embedded QA engineer on regular basis about software development
-  best-practices as he built out integration test suite
+  best-practices as he built out integration test suite.
 
 Metromix
 ^^^^^^^^
@@ -163,12 +160,12 @@ Metromix
 
 * Full-stack developer on large, highly traficked *Ruby on Rails* application
   and worked daily with multitude of technologies (e.g. *MySQL*, *Memcache*,
-  *Solr*, *jQuery*, *PrototypeJS*, *HTML*, *CSS*, and *Capitrano*)
+  *Solr*, *jQuery*, *PrototypeJS*, *HTML*, *CSS*, and *Capitrano*).
 * Participated in *Scrum*/*Agile* project management system and utilized
-  development methodologies such as *TDD* and  *pair-programming*
+  development methodologies such as *TDD* and  *pair-programming*.
 * Major contributor to *ETL* project that pulled data from several third-party
   *REST* APIs and utilized *CouchDB* as intermediate store for all stages of
-  extraction and translation processes
+  extraction and translation processes.
 
 
 Education
