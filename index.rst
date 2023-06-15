@@ -25,10 +25,13 @@ Goldman Sachs
 * Migrated software projects from internally hosted *Gerrit* and *Jenkins* to
   firmwide hosted *Gitlab*. Produced concise, reusable continuous integration
   job definitions and container base images to be used by projects team-wide.
-* Collaborated with system administrators and network engineers on projects
-  with a software component, promoting software engineering best practices
-  around project structure, build automation, testing and deployment of
-  components in a global, multi-tiered environment.
+* Implemented foundational *Python* libraries and organizational patterns to
+  ensure consistent application architecture across all *Python* projects
+  within the team.
+* Collaborated with and metored system administrators, network engineers and
+  junior team members on projects with a software component, promoting software
+  engineering best practices around project structure, build automation,
+  testing and deployment of components in a global, multi-tiered environment.
 
 
 Amperity
