@@ -1,6 +1,6 @@
 build: index.rst template.html styles.css
 	mkdir -p build
-	rst2html.py --template=template.html --stylesheet=styles.css index.rst > build/index.html
+	rst2html --template=template.html --stylesheet=styles.css index.rst > build/index.html
 
 
 deploy: build
