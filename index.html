@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.21.2: https://docutils.sourceforge.io/" />
+<title>John MacKenzie</title>
+<style type="text/css">
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: monospace;
+}
+
+pre.address {
+  margin: 0;
+  white-space: normal;
+}
+
+tr.field th {
+  text-align: left;
+}
+
+div.document {
+  margin: 0 auto;
+}
+
+em {
+  font-weight: bold;
+}
+
+
+@media (max-width: 991px) {
+  div.document {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  div.document {
+    width: 800px;
+  }
+}
+
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+<div class="document">
+<h1 class="title">John MacKenzie</h1>
+<table class="docinfo" frame="void" rules="none">
+<col class="docinfo-name" />
+<col class="docinfo-content" />
+<tbody valign="top">
+<tr class="location field"><th class="docinfo-name">Location:</th><td class="field-body">New York, NY</td>
+</tr>
+<tr class="email field"><th class="docinfo-name">Email:</th><td class="field-body"><a class="reference external" href="mailto:john&#64;nineteeneightd.com">john&#64;nineteeneightd.com</a></td>
+</tr>
+<tr class="github field"><th class="docinfo-name">Github:</th><td class="field-body"><a class="reference external" href="https://github.com/198d">198d</a></td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="experience">
+<h1>Experience</h1>
+<div class="section" id="goldman-sachs">
+<h2>Goldman Sachs</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Position:</th><td class="field-body">Vice President, Software Engineer</td>
+</tr>
+<tr class="field"><th class="field-name">Dates:</th><td class="field-body">December 2021 - Present</td>
+</tr>
+<tr class="field"><th class="field-name">Location:</th><td class="field-body">New York, NY</td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li>Responsible for development of tools to monitor, configure and support
+globally deployed low-latency trading infrastructure (compute and network) in
+exchange-colocated datacenters.</li>
+<li>Managed integration with internally hosted <em>Hashicorp Vault</em> deployment for
+global secrets management on trading hosts. Defined cross-team requirements,
+organzied and directed internal resources for implementation, implemented core
+tools and observability, managed global deployment and supported application
+teams in onboarding.</li>
+<li>Architected and maintained <em>Python</em> monorepo that grew from a few shared
+libraries from one contributor to several dozen libraries/applications from a
+dozen contributors. Implemented tooling to manage a comprehensive <em>Gitlab CI</em>
+configuration providing a common build/test/publish pipeline for most
+projects, but also the flexibility to customize. Simple steps for starting a
+new project and batteries-included approach allowed junior developers to
+start and deploy new projects with minimal friction.</li>
+<li>Mentored junior and non-traditional developers (sysadmin, network engineers,
+PMs, etc.) on <em>Python</em> development best practices. Defined team-wide standards
+and patterns for application development and deployment. Assisted with code
+and architecture review.</li>
+<li>Led design (through a collaborative <em>Git</em>-based design doc review process) and
+implementation of <em>Ansible</em> reporting tool using <em>Python</em>, <em>InfluxDB</em> and
+<em>Grafana</em> leading to easier debugging/troubleshooting for sysadmins and better
+visibility for application teams.</li>
+</ul>
+</div>
+<div class="section" id="amperity">
+<h2>Amperity</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Position:</th><td class="field-body">Senior Site Reliability Engineer</td>
+</tr>
+<tr class="field"><th class="field-name">Dates:</th><td class="field-body">June 2018 - December 2020</td>
+</tr>
+<tr class="field"><th class="field-name">Location:</th><td class="field-body">Seattle, WA</td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li>Led design and implementation of patterns and best practices for managing
+<em>Terraform</em> configuration at scale: 40k+ lines of configuration with dozens
+of subsystems (including <em>PrestoDB/SQL</em>, <em>Kafka</em>, <em>Spark</em>, <em>Zookeeper</em>,
+<em>Meosos</em>/<em>Aurora</em>, <em>HDFS</em>, <em>Airflow</em>) deployed across 6 environments and 2
+public clouds (<em>AWS</em>, <em>Azure</em>).</li>
+<li>Implemented <em>Clojure</em> library wrapping <em>Terraform</em> to enable the automation
+of common tasks (e.g. safely replacing a set of resources, configuration
+refactoring, plan introspection, workspace management, state file
+manipulation, etc.) and also promote a REPL-driven workflow. Included several
+CLI tools that utilized <em>GraalVM</em> to produce native binaries.</li>
+<li>Led strategic planning and implementation to migrate away from EOL Ubuntu
+14.04 LTS which involved truing up buggy and spotty coverage of configuration
+management (<em>SaltStack</em>) and other IaaC. Result was more reliable
+infrastructure and documentation meant to serve as the template for further
+automation.</li>
+<li>Advocated and developed tools and best practices for developing
+infrastructure with an emphasis on making it easier to build and test
+locally (with VM-like <em>Docker</em> containers) or in the cloud using isolated
+copies of real infrastructure (via <em>Terraform</em> workspaces).</li>
+<li>Produced tools to gather evidence for yearly <em>SOC2</em> audits.</li>
+</ul>
+</div>
+<div class="section" id="socrata">
+<h2>Socrata</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Position:</th><td class="field-body">Senior Site Reliability Engineer</td>
+</tr>
+<tr class="field"><th class="field-name">Dates:</th><td class="field-body">February 2017 - June 2018</td>
+</tr>
+<tr class="field"><th class="field-name">Location:</th><td class="field-body">Seattle, WA</td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li>Led implementation of an internet-facing, authenticated reverse proxy
+(<em>nginx</em>, <em>OpenResty</em>, <em>OpenIDC</em>) for exposing applications with no built-in
+authentication mechanism (primarily operational dashboards) that improves
+their accessibility (no VPN) and auditability (augmented access logs).</li>
+<li>Led implementation of prototype for platform to host <em>Shiny</em> (<em>R</em>)
+applications using <em>Docker</em>, <em>Amazon ECS</em> and <em>OpenResty</em>.</li>
+<li>Built infrastructure tooling for provisioning (<em>AWS CloudFormation</em>,
+<em>Packer</em>), configuration management (<em>Chef</em>), deployment (<em>Mesos</em>,
+<em>Marathon</em>, <em>Chronos</em>, <em>Docker</em>), monitoring and alerting (<em>Sensu</em>,
+<em>Graphite</em>, <em>Grafana</em>), and security and compliance.</li>
+<li>Partnered with teams in engineering and other technical parts of the
+organization about infrastructure design and implementation.</li>
+</ul>
+</div>
+<div class="section" id="so1">
+<h2>So1</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Position:</th><td class="field-body">Senior Site Reliability Engineer</td>
+</tr>
+<tr class="field"><th class="field-name">Dates:</th><td class="field-body">August 2015 - June 2016</td>
+</tr>
+<tr class="field"><th class="field-name">Location:</th><td class="field-body">Berlin, Germany</td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li>Implemented and maintained solutions for infrastructure (hosted on <em>Amazon
+AWS</em>) management around logging (<em>Elasticsearch</em>, <em>Logstash</em>, <em>Kibana</em>),
+configuration management and deployment automation (<em>Ansible</em>, <em>Rundeck</em>),
+continuous integration (<em>Jenkins</em>), data storage and processing (<em>Apache
+Kafka</em>, <em>Apache Zookeeper</em>, <em>MySQL</em>, <em>Amazon Redshift</em>, <em>SSDB</em>, <em>Redis</em>,
+<em>Couchbase</em>), and monitoring and alerting (<em>InfluxDB</em>, <em>Grafana</em>, <em>Graphite</em>,
+<em>Nagios</em>).</li>
+<li>Led network integrations (<em>Amazon VPC</em>, <em>Strongswan IPSec</em>) with large
+German and foreign retailers to provide access to internal So1 systems from
+retail stores around Germany and abroad.</li>
+<li>Built and maintained internal CLI tool (written in <em>Python</em>) that provided
+consistent interfaces for common operations and infrastructure related tasks.</li>
+</ul>
+</div>
+<div class="section" id="curiosity">
+<h2>Curiosity</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Position:</th><td class="field-body">Senior Site Reliability Engineer</td>
+</tr>
+<tr class="field"><th class="field-name">Dates:</th><td class="field-body">June 2013 - June 2015</td>
+</tr>
+<tr class="field"><th class="field-name">Location:</th><td class="field-body">Chicago, IL</td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li>Managed infrastructure and ensured stability of systems such as <em>Elasticsearch</em>
+(multiple clusters), <em>MongoDB</em> (in replica set configuration), public and
+internal <em>Python</em> web applications, <em>Apache Storm</em>, and <em>Redis</em>.</li>
+<li>Implemented internal best-practices around configuration management and
+deployment (<em>Salt Stack</em> and <em>Fabric</em>), monitoring and alerting (<em>CloudWatch</em>
+and <em>Sentry</em>), logging (<em>syslog-ng</em> and <em>Papertrail</em>), continuous integration
+(<em>Buildkite</em>) and network security (<em>IPSec</em> and <em>VPC</em>) while continuously
+questioning current solutions and evaluating new ones.</li>
+<li>Built and maintained internal library used by all <em>Python</em> applications aiding
+in configuration, deployment and service discovery.</li>
+<li>Led migration of infrastructure from <em>EC2 Classic</em> to <em>EC2 VPC</em> moving ~40
+VMs across 2 environments to separate VPCs with minimal production downtime
+(i.e. mostly unnoticed to users).</li>
+<li>Led inital groundwork for internal CMS tool with <em>Flask</em> application
+providing <em>REST</em> API serving custom framework built around <em>BackboneJS</em> for
+managing client interactions and later moving to <em>ReactJS</em>.</li>
+</ul>
+</div>
+<div class="section" id="call-one">
+<h2>Call One</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Position:</th><td class="field-body">Senior Software Engineer</td>
+</tr>
+<tr class="field"><th class="field-name">Dates:</th><td class="field-body">August 2012 - September 2013</td>
+</tr>
+<tr class="field"><th class="field-name">Location:</th><td class="field-body">Chicago, IL</td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li>Implemented best-practices around development, testing, deployment,
+provisioning, logging and process using tools such as <em>Nose</em>, <em>Django</em>, <em>Fabric</em>,
+<em>Puppet</em>, <em>git</em> and <em>Sentry</em>.</li>
+<li>Partnered with members of staff to debug and solve issues with internal tooling
+and provided adhoc data reporting from several internal/external datastores
+(e.g. <em>PostgreSQL</em>, <em>MSSQL</em> and filesystems w/ legacy text database files).</li>
+<li>Led design and implementation of ETL process around call-detail records using
+custom stream processing framework providing facilities for defining
+processing graphs while also ensuring individual components could be composed
+adhoc in the shell using pipes.</li>
+</ul>
+</div>
+<div class="section" id="leapfrog-online">
+<h2>Leapfrog Online</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Position:</th><td class="field-body">Software Engineer</td>
+</tr>
+<tr class="field"><th class="field-name">Dates:</th><td class="field-body">December 2010 - April 2012</td>
+</tr>
+<tr class="field"><th class="field-name">Location:</th><td class="field-body">Evanston, IL</td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li>Built backend platforms/frameworks in <em>Ruby</em> and <em>Python</em> for lead generation
+websites and worked with dedicated frontend teams to provide necessary
+data to fulfill design requirements.</li>
+<li>Led the development and open-source release of library (based on
+<em>EventMachine</em>; called <em>RCelery</em>) that ported major pieces of the <em>Python</em>
+library <em>Celery</em> to <em>Ruby</em>.</li>
+<li>Mentored embedded QA engineer on regular basis about software development
+best-practices as he built out integration test suite.</li>
+</ul>
+</div>
+<div class="section" id="metromix">
+<h2>Metromix</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Position:</th><td class="field-body">Software Engineer</td>
+</tr>
+<tr class="field"><th class="field-name">Dates:</th><td class="field-body">August 2008 - December 2010</td>
+</tr>
+<tr class="field"><th class="field-name">Location:</th><td class="field-body">Chicago, IL</td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li>Full-stack developer on large, highly traficked <em>Ruby on Rails</em> application
+and worked daily with multitude of technologies (e.g. <em>MySQL</em>, <em>Memcache</em>,
+<em>Solr</em>, <em>jQuery</em>, <em>PrototypeJS</em>, <em>HTML</em>, <em>CSS</em>, and <em>Capitrano</em>).</li>
+<li>Participated in <em>Scrum</em>/<em>Agile</em> project management system and utilized
+development methodologies such as <em>TDD</em> and  <em>pair-programming</em>.</li>
+<li>Major contributor to <em>ETL</em> project that pulled data from several third-party
+<em>REST</em> APIs and utilized <em>CouchDB</em> as intermediate store for all stages of
+extraction and translation processes.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="education">
+<h1>Education</h1>
+<div class="section" id="purdue-university">
+<h2>Purdue University</h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Degree:</th><td class="field-body">B.S. Computer Science</td>
+</tr>
+<tr class="field"><th class="field-name">Dates:</th><td class="field-body">August 2003 - December 2007</td>
+</tr>
+<tr class="field"><th class="field-name">Location:</th><td class="field-body">West Lafayette, IN</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-32627646-2', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
