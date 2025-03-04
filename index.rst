@@ -15,24 +15,29 @@ Goldman Sachs
 :Dates: December 2021 - Present
 :Location: New York, NY
 
-* Led team as *Project Manager*, *Product Owner* and *Engineer* in design and
-  implementation of tool to report on the global state of *Ansible*
-  configuration management runs using *InfluxDB*, *Grafana* and *Python*.
-* Led effort to create reproducible development environments for software
-  engineers on team by automating the creation of VMs (under *libvirt*) on bare
-  metal, installation of *NixOS* and application of baseline, GS-compatible
-  `configuration.nix`.
-* Migrated software projects from internally hosted *Gerrit* and *Jenkins* to
-  firmwide hosted *Gitlab*. Produced concise, reusable continuous integration
-  job definitions and container base images to be used by projects team-wide.
-* Implemented foundational *Python* libraries and organizational patterns to
-  ensure consistent application architecture across all *Python* projects
-  within the team.
-* Collaborated with and metored system administrators, network engineers and
-  junior team members on projects with a software component, promoting software
-  engineering best practices around project structure, build automation,
-  testing and deployment of components in a global, multi-tiered environment.
-
+* Responsible for development of tools to monitor, configure and support
+  globally deployed low-latency trading infrastructure (compute and network) in
+  exchange-colocated datacenters.
+* Managed integration with internally hosted *Hashicorp Vault* deployment for
+  global secrets management on trading hosts. Defined cross-team requirements,
+  organzied and directed internal resources for implementation, implemented core
+  tools and observability, managed global deployment and supported application
+  teams in onboarding.
+* Architected and maintained *Python* monorepo that grew from a few shared
+  libraries from one contributor to several dozen libraries/applications from a
+  dozen contributors. Implemented tooling to manage a comprehensive *Gitlab CI*
+  configuration providing a common build/test/publish pipeline for most
+  projects, but also the flexibility to customize. Simple steps for starting a
+  new project and batteries-included approach allowed junior developers to
+  start and deploy new projects with minimal friction.
+* Mentored junior and non-traditional developers (sysadmin, network engineers,
+  PMs, etc.) on *Python* development best practices. Defined team-wide standards
+  and patterns for application development and deployment. Assisted with code
+  and architecture review.
+* Led design (through a collaborative *Git*-based design doc review process) and
+  implementation of *Ansible* reporting tool using *Python*, *InfluxDB* and
+  *Grafana* leading to easier debugging/troubleshooting for sysadmins and better
+  visibility for application teams.
 
 Amperity
 ^^^^^^^^
