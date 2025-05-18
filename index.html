@@ -80,28 +80,37 @@ em {
 </table>
 <ul class="simple">
 <li>Responsible for development of tools to monitor, configure and support
-globally deployed low-latency trading infrastructure (compute and network) in
-exchange-colocated datacenters.</li>
-<li>Managed integration with internally hosted <em>Hashicorp Vault</em> deployment for
-global secrets management on trading hosts. Defined cross-team requirements,
-organzied and directed internal resources for implementation, implemented core
-tools and observability, managed global deployment and supported application
-teams in onboarding.</li>
+globally deployed <em>low-latency</em> trading infrastructure (compute and network)
+in exchange-colocated datacenters.</li>
+<li>Led design (through a collaborative <em>Git</em>-based design doc review process)
+and implementation of <em>Ansible</em> runner tool in <em>Python</em> used as entrypoint
+for all executions of <cite>ansible-playbook</cite> built on top of <em>ansible_runner</em>,
+providing observability (<em>InfluxDB</em>, <em>Grafana</em>), release management,
+controller selection and inventory selection. Codebase also served as a
+library for calling Ansible <em>programatically</em> and consuming inventory data in
+scripts and other applicaitons.</li>
+<li>Managed integration with <em>Hashicorp Vault</em> deployment for global secrets
+management on trading hosts. Defined cross-team requirements, organzied and
+directed internal resources, implemented core tools and observability,
+managed global deployment and supported application teams in onboarding.</li>
+<li>Built <em>Python</em> library and tools for interacting with and declaratively
+configuring batch jobs on a proprietary <em>distributed scheduler</em> using a
+<em>GitOps</em>-based workflow.</li>
 <li>Architected and maintained <em>Python</em> monorepo that grew from a few shared
 libraries from one contributor to several dozen libraries/applications from a
 dozen contributors. Implemented tooling to manage a comprehensive <em>Gitlab CI</em>
 configuration providing a common build/test/publish pipeline for most
-projects, but also the flexibility to customize. Simple steps for starting a
-new project and batteries-included approach allowed junior developers to
-start and deploy new projects with minimal friction.</li>
+projects, but also the flexibility to customize. Ensured simple steps for
+starting a new project and batteries-included approach allowed junior and
+senior developers to start and deploy new projects with minimal friction.</li>
+<li>Contributed to automation tools for (re)installing a <em>Linux</em> OS (<em>RHEL7/8</em>)
+on newly provisioned <em>physical servers</em> using <em>Python</em> to build a JIT <em>ISO</em>
+containing a host-specific <em>Anaconda</em> configuration, serving the image over
+<em>HTTP</em> and mounting the image using <em>Redfish</em>.</li>
 <li>Mentored junior and non-traditional developers (sysadmin, network engineers,
 PMs, etc.) on <em>Python</em> development best practices. Defined team-wide standards
 and patterns for application development and deployment. Assisted with code
 and architecture review.</li>
-<li>Led design (through a collaborative <em>Git</em>-based design doc review process) and
-implementation of <em>Ansible</em> reporting tool using <em>Python</em>, <em>InfluxDB</em> and
-<em>Grafana</em> leading to easier debugging/troubleshooting for sysadmins and better
-visibility for application teams.</li>
 </ul>
 </div>
 <div class="section" id="amperity">
