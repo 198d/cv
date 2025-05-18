@@ -16,28 +16,37 @@ Goldman Sachs
 :Location: New York, NY
 
 * Responsible for development of tools to monitor, configure and support
-  globally deployed low-latency trading infrastructure (compute and network) in
-  exchange-colocated datacenters.
-* Managed integration with internally hosted *Hashicorp Vault* deployment for
-  global secrets management on trading hosts. Defined cross-team requirements,
-  organzied and directed internal resources for implementation, implemented core
-  tools and observability, managed global deployment and supported application
-  teams in onboarding.
+  globally deployed *low-latency* trading infrastructure (compute and network)
+  in exchange-colocated datacenters.
+* Led design (through a collaborative *Git*-based design doc review process)
+  and implementation of *Ansible* runner tool in *Python* used as entrypoint
+  for all executions of `ansible-playbook` built on top of *ansible_runner*,
+  providing observability (*InfluxDB*, *Grafana*), release management,
+  controller selection and inventory selection. Codebase also served as a
+  library for calling Ansible *programatically* and consuming inventory data in
+  scripts and other applicaitons.
+* Managed integration with *Hashicorp Vault* deployment for global secrets
+  management on trading hosts. Defined cross-team requirements, organzied and
+  directed internal resources, implemented core tools and observability,
+  managed global deployment and supported application teams in onboarding.
+* Built *Python* library and tools for interacting with and declaratively
+  configuring batch jobs on a proprietary *distributed scheduler* using a
+  *GitOps*-based workflow.
 * Architected and maintained *Python* monorepo that grew from a few shared
   libraries from one contributor to several dozen libraries/applications from a
   dozen contributors. Implemented tooling to manage a comprehensive *Gitlab CI*
   configuration providing a common build/test/publish pipeline for most
-  projects, but also the flexibility to customize. Simple steps for starting a
-  new project and batteries-included approach allowed junior developers to
-  start and deploy new projects with minimal friction.
+  projects, but also the flexibility to customize. Ensured simple steps for
+  starting a new project and batteries-included approach allowed junior and
+  senior developers to start and deploy new projects with minimal friction.
+* Contributed to automation tools for (re)installing a *Linux* OS (*RHEL7/8*)
+  on newly provisioned *physical servers* using *Python* to build a JIT *ISO*
+  containing a host-specific *Anaconda* configuration, serving the image over
+  *HTTP* and mounting the image using *Redfish*.
 * Mentored junior and non-traditional developers (sysadmin, network engineers,
   PMs, etc.) on *Python* development best practices. Defined team-wide standards
   and patterns for application development and deployment. Assisted with code
   and architecture review.
-* Led design (through a collaborative *Git*-based design doc review process) and
-  implementation of *Ansible* reporting tool using *Python*, *InfluxDB* and
-  *Grafana* leading to easier debugging/troubleshooting for sysadmins and better
-  visibility for application teams.
 
 Amperity
 ^^^^^^^^
