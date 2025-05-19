@@ -80,8 +80,7 @@ em {
 </table>
 <ul class="simple">
 <li>Developed tools to monitor, configure and support globally deployed
-<em>low-latency</em> trading infrastructure (compute and network)
-in exchange-colocated datacenters.</li>
+low-latency <em>Linux</em> trading infrastructure in exchange-colocated datacenters.</li>
 <li>Led design (through a collaborative <em>Git</em>-based design doc review process)
 and implementation of <em>Ansible</em> runner tool in <em>Python</em>. Used as the
 entrypoint for all executions of <cite>ansible-playbook</cite>, it provided
@@ -91,26 +90,26 @@ calling Ansible programatically and consuming inventory data in scripts and
 other applicaitons.</li>
 <li>Managed integration with <em>Hashicorp Vault</em> deployment for global secrets
 management on trading hosts. Defined cross-team requirements, organzied and
-directed internal resources, implemented core tools and observability,
-managed global deployment and supported application teams in onboarding.</li>
+directed internal resources, implemented core tools (<em>Python</em>), observability
+(<em>InfluxDB</em>, <em>Telegraf</em>, <em>Grafana</em>), managed global deployment and supported
+application teams in onboarding.</li>
 <li>Built <em>Python</em> library and tools for interacting with and declaratively
-configuring batch jobs on a proprietary <em>distributed scheduler</em> using a
-<em>GitOps</em>-based workflow.</li>
-<li>Architected and maintained <em>Python</em> monorepo that grew from a few shared
-libraries from one contributor to several dozen libraries/applications from a
-dozen contributors. Implemented tooling to manage a comprehensive <em>Gitlab CI</em>
-configuration providing a common build/test/publish pipeline for
-projects, with the flexibility to customize. Ensured simple steps for
-starting new projects with a batteries-included approach allowing junior and
-senior developers to start and deploy new projects with minimal friction.</li>
-<li>Contributed to automation tools for (re)installing a <em>Linux</em> OS (<em>RHEL7/8</em>)
-on newly provisioned <em>physical servers</em> using <em>Python</em> to build a JIT <em>ISO</em>
-containing a host-specific <em>Anaconda</em> configuration, serving the image over
-<em>HTTP</em> and mounting the image using <em>Redfish</em>.</li>
+configuring batch jobs on a proprietary <em>Linux</em>-based distributed scheduler
+using a <em>Git</em>-based workflow.</li>
+<li>Architected and maintained <em>Python</em> monorepo growing it from a few shared
+modules to several dozen libraries/applications maintained by a dozen
+contributors. Implemented tooling to support a comprehensive <em>Gitlab CI</em>
+configuration providing reusable <em>Linux</em> container-based build/test/publish
+pipeline steps. Ensured a fast onboarding process allowing both junior and
+senior developers to build and ship new projects quickly.</li>
+<li>Contributed to <em>Linux</em> provisioning automation for bare-metal servers
+(<em>RHEL7/8</em>), developing <em>Python</em> tools to generate host-specific <em>ISO</em> images
+with dynamic <em>Anaconda</em> kickstart configurations, served over <em>HTTP</em> and
+remotely mounted via <em>Redfish</em>.</li>
 <li>Mentored junior and non-traditional developers (sysadmin, network engineers,
-PMs, etc.) on <em>Python</em> development best practices. Defined team-wide standards
-and patterns for application development and deployment. Assisted with code
-and architecture review.</li>
+PMs, etc.) on <em>Python</em> development best practices. Defined team-wide
+standards and patterns for <em>Linux</em> application development and deployment.
+Assisted with code and architecture review.</li>
 </ul>
 </div>
 <div class="section" id="amperity">
