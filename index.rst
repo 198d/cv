@@ -22,7 +22,7 @@ Goldman Sachs
   entrypoint for all executions of `ansible-playbook`, it provided
   observability (*InfluxDB*, *Grafana*), release management, controller
   selection and inventory selection. Codebase also served as a library for
-  calling Ansible programatically and consuming inventory data in scripts and
+  calling *Ansible* programatically and consuming inventory data in scripts and
   other applicaitons.
 * Managed integration with *Hashicorp Vault* deployment for global secrets
   management on trading hosts. Defined cross-team requirements, organzied and
