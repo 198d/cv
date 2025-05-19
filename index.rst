@@ -16,8 +16,7 @@ Goldman Sachs
 :Location: New York, NY
 
 * Developed tools to monitor, configure and support globally deployed
-  *low-latency* trading infrastructure (compute and network)
-  in exchange-colocated datacenters.
+  low-latency *Linux* trading infrastructure in exchange-colocated datacenters.
 * Led design (through a collaborative *Git*-based design doc review process)
   and implementation of *Ansible* runner tool in *Python*. Used as the
   entrypoint for all executions of `ansible-playbook`, it provided
@@ -27,26 +26,26 @@ Goldman Sachs
   other applicaitons.
 * Managed integration with *Hashicorp Vault* deployment for global secrets
   management on trading hosts. Defined cross-team requirements, organzied and
-  directed internal resources, implemented core tools and observability,
-  managed global deployment and supported application teams in onboarding.
+  directed internal resources, implemented core tools (*Python*), observability
+  (*InfluxDB*, *Telegraf*, *Grafana*), managed global deployment and supported
+  application teams in onboarding.
 * Built *Python* library and tools for interacting with and declaratively
-  configuring batch jobs on a proprietary *distributed scheduler* using a
-  *GitOps*-based workflow.
-* Architected and maintained *Python* monorepo that grew from a few shared
-  libraries from one contributor to several dozen libraries/applications from a
-  dozen contributors. Implemented tooling to manage a comprehensive *Gitlab CI*
-  configuration providing a common build/test/publish pipeline for
-  projects, with the flexibility to customize. Ensured simple steps for
-  starting new projects with a batteries-included approach allowing junior and
-  senior developers to start and deploy new projects with minimal friction.
-* Contributed to automation tools for (re)installing a *Linux* OS (*RHEL7/8*)
-  on newly provisioned *physical servers* using *Python* to build a JIT *ISO*
-  containing a host-specific *Anaconda* configuration, serving the image over
-  *HTTP* and mounting the image using *Redfish*.
+  configuring batch jobs on a proprietary *Linux*-based distributed scheduler
+  using a *Git*-based workflow.
+* Architected and maintained *Python* monorepo growing it from a few shared
+  modules to several dozen libraries/applications maintained by a dozen
+  contributors. Implemented tooling to support a comprehensive *Gitlab CI*
+  configuration providing reusable *Linux* container-based build/test/publish
+  pipeline steps. Ensured a fast onboarding process allowing both junior and
+  senior developers to build and ship new projects quickly.
+* Contributed to *Linux* provisioning automation for bare-metal servers
+  (*RHEL7/8*), developing *Python* tools to generate host-specific *ISO* images
+  with dynamic *Anaconda* kickstart configurations, served over *HTTP* and
+  remotely mounted via *Redfish*.
 * Mentored junior and non-traditional developers (sysadmin, network engineers,
-  PMs, etc.) on *Python* development best practices. Defined team-wide standards
-  and patterns for application development and deployment. Assisted with code
-  and architecture review.
+  PMs, etc.) on *Python* development best practices. Defined team-wide
+  standards and patterns for *Linux* application development and deployment.
+  Assisted with code and architecture review.
 
 Amperity
 ^^^^^^^^
