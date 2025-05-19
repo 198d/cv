@@ -37,7 +37,7 @@ Goldman Sachs
   dozen contributors. Implemented tooling to manage a comprehensive *Gitlab CI*
   configuration providing a common build/test/publish pipeline for
   projects, with the flexibility to customize. Ensured simple steps for
-  starting new projects and a batteries-included approach allowing junior and
+  starting new projects with a batteries-included approach allowing junior and
   senior developers to start and deploy new projects with minimal friction.
 * Contributed to automation tools for (re)installing a *Linux* OS (*RHEL7/8*)
   on newly provisioned *physical servers* using *Python* to build a JIT *ISO*
