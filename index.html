@@ -79,16 +79,16 @@ em {
 </tbody>
 </table>
 <ul class="simple">
-<li>Responsible for development of tools to monitor, configure and support
-globally deployed <em>low-latency</em> trading infrastructure (compute and network)
+<li>Developed tools to monitor, configure and support globally deployed
+<em>low-latency</em> trading infrastructure (compute and network)
 in exchange-colocated datacenters.</li>
 <li>Led design (through a collaborative <em>Git</em>-based design doc review process)
-and implementation of <em>Ansible</em> runner tool in <em>Python</em> used as entrypoint
-for all executions of <cite>ansible-playbook</cite> built on top of <em>ansible_runner</em>,
-providing observability (<em>InfluxDB</em>, <em>Grafana</em>), release management,
-controller selection and inventory selection. Codebase also served as a
-library for calling Ansible <em>programatically</em> and consuming inventory data in
-scripts and other applicaitons.</li>
+and implementation of <em>Ansible</em> runner tool in <em>Python</em>. Used as the
+entrypoint for all executions of <cite>ansible-playbook</cite>, it provided
+observability (<em>InfluxDB</em>, <em>Grafana</em>), release management, controller
+selection and inventory selection. Codebase also served as a library for
+calling Ansible programatically and consuming inventory data in scripts and
+other applicaitons.</li>
 <li>Managed integration with <em>Hashicorp Vault</em> deployment for global secrets
 management on trading hosts. Defined cross-team requirements, organzied and
 directed internal resources, implemented core tools and observability,
@@ -99,9 +99,9 @@ configuring batch jobs on a proprietary <em>distributed scheduler</em> using a
 <li>Architected and maintained <em>Python</em> monorepo that grew from a few shared
 libraries from one contributor to several dozen libraries/applications from a
 dozen contributors. Implemented tooling to manage a comprehensive <em>Gitlab CI</em>
-configuration providing a common build/test/publish pipeline for most
-projects, but also the flexibility to customize. Ensured simple steps for
-starting a new project and batteries-included approach allowed junior and
+configuration providing a common build/test/publish pipeline for
+projects, with the flexibility to customize. Ensured simple steps for
+starting new projects and a batteries-included approach allowing junior and
 senior developers to start and deploy new projects with minimal friction.</li>
 <li>Contributed to automation tools for (re)installing a <em>Linux</em> OS (<em>RHEL7/8</em>)
 on newly provisioned <em>physical servers</em> using <em>Python</em> to build a JIT <em>ISO</em>
