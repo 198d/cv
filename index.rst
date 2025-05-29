@@ -4,7 +4,6 @@ John MacKenzie
 :Email: john@nineteeneightd.com
 :Github: `198d <https://github.com/198d>`_
 
-
 Experience
 ----------
 
@@ -135,54 +134,6 @@ Curiosity
 * Led inital groundwork for internal CMS tool with *Flask* application
   providing *REST* API serving custom framework built around *BackboneJS* for
   managing client interactions and later moving to *ReactJS*.
-
-Call One
-^^^^^^^^
-:Position: Senior Software Engineer
-:Dates: August 2012 - September 2013
-:Location: Chicago, IL
-
-* Implemented best-practices around development, testing, deployment,
-  provisioning, logging and process using tools such as *Nose*, *Django*, *Fabric*,
-  *Puppet*, *git* and *Sentry*.
-* Partnered with members of staff to debug and solve issues with internal tooling
-  and provided adhoc data reporting from several internal/external datastores
-  (e.g. *PostgreSQL*, *MSSQL* and filesystems w/ legacy text database files).
-* Led design and implementation of ETL process around call-detail records using
-  custom stream processing framework providing facilities for defining
-  processing graphs while also ensuring individual components could be composed
-  adhoc in the shell using pipes.
-
-Leapfrog Online
-^^^^^^^^^^^^^^^
-:Position: Software Engineer
-:Dates: December 2010 - April 2012
-:Location: Evanston, IL
-
-* Built backend platforms/frameworks in *Ruby* and *Python* for lead generation
-  websites and worked with dedicated frontend teams to provide necessary
-  data to fulfill design requirements.
-* Led the development and open-source release of library (based on
-  *EventMachine*; called *RCelery*) that ported major pieces of the *Python*
-  library *Celery* to *Ruby*.
-* Mentored embedded QA engineer on regular basis about software development
-  best-practices as he built out integration test suite.
-
-Metromix
-^^^^^^^^
-:Position: Software Engineer
-:Dates: August 2008 - December 2010
-:Location: Chicago, IL
-
-* Full-stack developer on large, highly traficked *Ruby on Rails* application
-  and worked daily with multitude of technologies (e.g. *MySQL*, *Memcache*,
-  *Solr*, *jQuery*, *PrototypeJS*, *HTML*, *CSS*, and *Capitrano*).
-* Participated in *Scrum*/*Agile* project management system and utilized
-  development methodologies such as *TDD* and  *pair-programming*.
-* Major contributor to *ETL* project that pulled data from several third-party
-  *REST* APIs and utilized *CouchDB* as intermediate store for all stages of
-  extraction and translation processes.
-
 
 Education
 ---------
