@@ -7,20 +7,19 @@ John MacKenzie
 Skills
 ------
   
-* **Programming:** *Python*, *Clojure*, *Bash*, *Go*, *C++*, *Ruby*, *Racket*
-* **Infrastructure & Automation:** *Linux (RHEL, Ubuntu, NixOS)*, *Ansible*, *Terraform*, 
-  *SaltStack*, *Chef*, *Packer*, *Docker*, *Kubernetes*, *Mesos*, *Marathon*, 
-  *Airflow*  
-* **CI/CD & DevOps:** *GitLab CI*, *Jenkins*, *Buildkite*, *Rundeck*  
-* **Monitoring & Observability:** *InfluxDB*, *Grafana*, *Telegraf*, 
-  *Graphite*, *Sensu*, *Sentry*, *CloudWatch*  
-* **Secrets & Security:** *HashiCorp Vault*, *OpenIDC*, *IPSec/VPN*, 
-  *SOC2 automation*  
-* **Cloud:** *AWS*, *Azure* 
-* **Data & Distributed Systems:** *Kafka*, *Zookeeper*, *Spark*, *PrestoDB*, 
-  *Elasticsearch*, *MySQL*, *Redis*, *MongoDB*, *Redshift*, *HDFS*, *XTDB*  
-* **Collaboration & Leadership:** *Architecture design*, *cross-team requirements gathering*, 
-  *mentoring*, *code review*, *engineering standards*
+* **Programming:** Python, Clojure, Bash, Go, C++, Ruby, Racket
+* **Infrastructure & Automation:** Linux (RHEL, Ubuntu, NixOS), Ansible, Terraform,
+  SaltStack, Chef, Packer, Docker, Kubernetes, Mesos, Marathon, Airflow
+* **CI/CD & DevOps:** GitLab CI, Jenkins, Buildkite, Rundeck
+* **Monitoring & Observability:** InfluxDB, Grafana, Telegraf, Graphite, Sensu,
+  Sentry, CloudWatch
+* **Secrets & Security:** HashiCorp Vault, OpenIDC, IPSec/VPN, SOC2 automation
+* **Cloud:** AWS, Azure
+* **Data & Distributed Systems:** Kafka, Zookeeper, Spark, PrestoDB, Elasticsearch,
+  MySQL, Redis, MongoDB, Redshift, HDFS, XTDB
+* **Collaboration & Leadership:** Architecture design, cross-team requirements
+  gathering, mentoring, code review, engineering standards
+
 
 Experience
 ----------
