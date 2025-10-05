@@ -32,7 +32,7 @@ jobs:
         run: |
           mkdir -p build
           rst2html \
-            --stylesheet=style.css \
+            --stylesheet=styles.css \
             --template=template.html \
             index.rst build/index.html
 
